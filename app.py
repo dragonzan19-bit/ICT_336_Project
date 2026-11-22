@@ -837,7 +837,7 @@ with importance_col:
                         st.bar_chart(
                             top_features.set_index("Feature")["Importance"],
                             horizontal=True,
-                            sort="ascending",
+                            sort="-Importance",
                             height=330,
                         )
                     else:
