@@ -1,0 +1,81 @@
+{
+    "model_name": "Logistic Regression with preprocessing pipeline",
+    "dataset": "UCI Default of Credit Card Clients (ID 350)",
+    "target": "default.payment.next.month",
+    "feature_columns": [
+        "X1",
+        "X2",
+        "X3",
+        "X4",
+        "X5",
+        "X6",
+        "X7",
+        "X8",
+        "X9",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18",
+        "X19",
+        "X20",
+        "X21",
+        "X22",
+        "X23"
+    ],
+    "categorical_features": [
+        "X2",
+        "X3",
+        "X4",
+        "X6",
+        "X7",
+        "X8",
+        "X9",
+        "X10",
+        "X11"
+    ],
+    "numerical_features": [
+        "X1",
+        "X5",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18",
+        "X19",
+        "X20",
+        "X21",
+        "X22",
+        "X23"
+    ],
+    "test_metrics": {
+        "accuracy": 0.7767395294510262,
+        "precision": 0.4960264900662252,
+        "recall": 0.5648567119155354,
+        "f1_score": 0.5282087447108603,
+        "roc_auc": 0.7631924157970618
+    },
+    "random_forest_metrics": {
+        "accuracy": 0.7735691640246954,
+        "precision": 0.49000644745325594,
+        "recall": 0.5731523378582202,
+        "f1_score": 0.5283281195689955,
+        "roc_auc": 0.7712014591071549
+    },
+    "xgboost_metrics": {
+        "accuracy": 0.8171199733021859,
+        "precision": 0.6619718309859155,
+        "recall": 0.35444947209653094,
+        "f1_score": 0.46168958742632615,
+        "roc_auc": 0.77410105806922
+    },
+    "test_size": 0.2,
+    "random_state": 42,
+    "classification_threshold": 0.5
+}
